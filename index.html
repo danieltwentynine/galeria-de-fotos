@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria De Fotos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova imagem +</button>
+    </header>
+    <main>
+        <form>
+            <h2>Inserir nova imagem</h2>
+            <input type="url" required placeholder="URL da imagem nova" id="urlNovaImg">
+            <button type="submit">Adicionar +</button>
+            <button type="reset" id="btn-cancelar">Cancelar</button>
+        </form>
+        <ul>
+            <li>
+                <img src="./images/foto1.jpg" alt="Pintura de um gato">
+                <div class="overlay-img-link">
+                    <a href="./images/foto1.jpg" title="Ver tamanho real da imagem" target="_blank">
+                        Ver imagem em tamanho real
+                    </a>
+                </div class="overlay-img-link">
+            </li>
+            <li>
+                <img src="./images/foto2.jpg" alt="Foto de um flamigo">
+                <div class="overlay-img-link">
+                    <a href="./images/foto2.jpg" title="Ver tamanho real da imagem" target="_blank">
+                        Ver imagem em tamanho real
+                    </a>
+                </div>
+            </li>
+            <li>
+                <img src="./images/foto3.jpg" alt="Dois cachorrinhos">
+                <div class="overlay-img-link">
+                    <a href="./images/foto3.jpg" title="Ver tamanho real da imagem" target="_blank">
+                        Ver imagem em tamanho real
+                    </a>
+                </div>
+            </li>
+            <li>
+                <img src="./images/foto4.jpg" alt="Abelha na flor">
+                <div class="overlay-img-link">
+                    <a href="./images/foto4.jpg" title="Ver tamanho real da imagem" target="_blank">
+                        Ver imagem em tamanho real
+                    </a>
+                </div>
+            </li>
+            <li>
+                <img src="./images/foto5.jpg" alt="Uma flor rosa">
+                <div class="overlay-img-link">
+                    <a href="./images/foto5.jpg" title="Ver tamanho real da imagem" target="_blank">
+                        Ver imagem em tamanho real
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
